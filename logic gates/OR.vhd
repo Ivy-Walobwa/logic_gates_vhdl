@@ -5,7 +5,7 @@ use ieee.std_logic_arith.all;
 entity orgate is
     port (
         A,B : in std_logic;
-        Y : in std_logic;
+        Y : out std_logic;
     );
 end orgate;
 
